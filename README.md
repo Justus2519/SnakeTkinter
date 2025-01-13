@@ -10,7 +10,7 @@ Within **Main** one may modify any of the following:
   Game time is the time in milliseconds it take for the snake to move one square  
 * **SNAKE_HEAD_COLOUR**
   Hex colour of snake's head. For any colour configuration you may also use colour from [tkinter color chart](https://cs111.wellesley.edu/archive/cs111_fall14/public_html/labs/lab12/tkintercolor.html)
-* **SNAKE_COLOUR
+* **SNAKE_COLOUR**
   Hex colour of snake body.
 * **FOOD_COLOUR**
   Hex colour of apple
