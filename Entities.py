@@ -127,8 +127,8 @@ class Food:
         self.width = width
         self.height = height
         self.restricted_squares={(0, 0), (0, 1), (0, 2)}
-        self.x = random.randrange(2, 20)
-        self.y = random.randrange(0, 20)
+        self.x = random.randrange(2, 21)
+        self.y = random.randrange(0, 21)
         self.tag = self.board.create_rectangle(
             29*self.x+3, 29*self.y+3, 29*self.x+32, 29*self.y+32, outline="#292e28", fill=colour)
 

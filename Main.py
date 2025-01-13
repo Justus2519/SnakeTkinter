@@ -5,7 +5,7 @@ import Entities
 #TO DO: make head a slightly darker colour and make sure it updates properly!
 #board[20][20]
 #CONSTANTS
-GAMETIME=250 #in milliseconds
+GAMETIME=185 #in milliseconds
 SNAKE_HEAD_COLOUR="#076d07"
 SNAKE_COLOUR="#07ad07"
 FOOD_COLOUR="red"
@@ -39,7 +39,6 @@ def start_game(event):
 
 
 def quit_game():
-    print("Game session ended")
     root.destroy()
 
 
