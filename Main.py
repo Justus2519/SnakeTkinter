@@ -5,7 +5,7 @@ import Entities
 #TO DO: make head a slightly darker colour and make sure it updates properly!
 #board[20][20]
 #CONSTANTS
-GAMETIME=200 #in milliseconds
+GAMETIME=250 #in milliseconds
 SNAKE_HEAD_COLOUR="#076d07"
 SNAKE_COLOUR="#07ad07"
 FOOD_COLOUR="red"
@@ -18,8 +18,10 @@ direction_queue = []
 state = False
 highest_points=0
 
+# Setting up window and styles
 root = tkinter.Tk()
 root.geometry("800x900")
+root.title('Snake')
 
 style = ttk.Style()
 style.theme_use("default")
